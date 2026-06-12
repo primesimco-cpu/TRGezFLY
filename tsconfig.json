@@ -1,0 +1,6 @@
+import type {ReactNode} from 'react';
+
+// Kök yerleşim minimaldir; html/body yerel (locale) yerleşiminde tanımlanır.
+export default function RootLayout({children}: {children: ReactNode}) {
+  return children;
+}
